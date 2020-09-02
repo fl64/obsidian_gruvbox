@@ -46,7 +46,7 @@
 
 .theme-dark
 {
-    --font-monospace: 'Hack Nerd Font', 'Source Code Pro', monospace;
+    --font-monospace: "FuraMono NF Regular",'Hack Nerd Font', 'Source Code Pro', monospace;
     --background-primary:         var(--dark0);
     --background-primary-alt:     var(--dark0);
     --background-secondary:       var(--dark0-hard);
@@ -61,6 +61,7 @@
     --text-link:                  var(--bright-blue);
     --text-a:                     var(--bright-orange);
     --text-a-hover:               var(--bright-blue);
+    --tag-fl64:                   var(--bright-green);
     --text-mark:                  var(--neutral-yellow);
     --pre-code:                   var(--dark1);
     --text-highlight-bg:          var(--faded-aqua);
@@ -137,7 +138,8 @@
 html,
 body
 {
-    font-size: 16px !important;
+    font-size: 14px !important;
+    font-family: "FuraCode Nerd Font",Roboto,Ubuntu, Barlow, Cairo, Inter, sans-serif;
 }
 
 strong
@@ -295,7 +297,8 @@ img
 {
     color: var(--inline-code) !important;
     background-color: var(--pre-code) !important;
-    padding: 1px !important;
+    padding: 3px !important;
+    /* font-size: 13px !important; */
 }
 
 .workspace-leaf-header-title
